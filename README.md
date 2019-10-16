@@ -21,7 +21,7 @@
 - [x] [ 从不订购的客户 ](./mysql/neverOrder.md)
 - [x] [ 部门工资最高的员工 ](./mysql/highestSalary.md)
 - [x] [ 部门工资前三高的所有员工 ](./mysql/topThreeSalarie.md)
-- [ ] [ 删除重复的电子邮箱 ](./mysql/)
+- [x] [ 删除重复的电子邮箱 ](./mysql/deleteDuplicateEmails.md)
 - [ ] [ 上升的温度 ](./mysql/)
 - [ ] [ 行程和用户 ](./mysql/)
 - [ ] [ 游戏玩法分析 I ](./mysql/)
