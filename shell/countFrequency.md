@@ -1,17 +1,17 @@
 #### 中等难度
-#### 写一个 bash 脚本以统计一个文本文件 words.txt 中每个单词出现的频率
-##### 为了简单起见，你可以假设
+#### 描述 
+- 写一个 bash 脚本以统计一个文本文件 words.txt 中每个单词出现的频率
 - words.txt只包括小写字母和 ' ' 
 - 每个单词只由小写字母组成
 - 单词间由一个或多个空格字符分隔
 
 #### 示例
-##### 假设 words.txt 内容如下
+- 假设 words.txt 内容如下
 ```shell script
 the day is sunny the the
 the sunny is is
 ```
-##### 你的脚本应当输出（以词频降序排列）
+- 你的脚本应当输出（以词频降序排列）
 ```shell script
 the 4
 is 3
