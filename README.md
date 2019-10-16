@@ -1,3 +1,5 @@
+#### leetcode 题目集合
+
 ### shell
 <hr>
 
@@ -18,7 +20,7 @@
 - [x] [ 查找重复的电子邮箱 ](./mysql/duplicateEmail.md)
 - [x] [ 从不订购的客户 ](./mysql/neverOrder.md)
 - [x] [ 部门工资最高的员工 ](./mysql/highestSalary.md)
-- [x] [ 部门工资前三高的所有员工 ](./mysql/)
+- [x] [ 部门工资前三高的所有员工 ](./mysql/topThreeSalarie.md)
 - [ ] [ 删除重复的电子邮箱 ](./mysql/)
 - [ ] [ 上升的温度 ](./mysql/)
 - [ ] [ 行程和用户 ](./mysql/)
