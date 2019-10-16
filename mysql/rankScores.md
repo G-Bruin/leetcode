@@ -28,6 +28,9 @@
 
 #### 解答
 
+- @i 初始排位 0 , @pre 初始分数 -1
+- (@pre <> ( @pre := Score), @pre前一分数 不等于 Score 则为 1, 否则为 0 
+
 ```shell script
 select 
     Score,
@@ -37,8 +40,6 @@ from
     (select @i := 0, @pre := -1) init 
 order by Score desc;
 
-- @i 初始排位 0 , @pre 初始分数 -1
-- (@pre <> ( @pre := Score), @pre前一分数 不等于 Score 则为 1, 否则为 0 
 ```
 
 | Score   | @pre  | @i | Rank|
