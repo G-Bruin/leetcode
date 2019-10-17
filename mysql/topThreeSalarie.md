@@ -34,23 +34,24 @@
 
 #### 解答
 
-- 执行代码： 执行结果正确，提交却是错的，我暂时不知道错在哪儿里
+- 执行代码
 ```shell script
-select t.salary as min_salary, t.Name as Department, Employee.Name as Employee, Employee.Salary from Employee , 
+select d.Name as Department, e.Name as Employee, e.Salary
+from
 (
-
-	SELECT *, IFNULL((
-
-	SELECT DISTINCT(salary) from Employee, (select @i :=0, @pre := -1) t 
-	where Employee.DepartmentId = Department.id 
-	HAVING ( @i := @i + (@pre != (@pre := salary))) = 3 
-	ORDER BY salary desc
-
-	), 0) as salary from Department
-	
-) as t
-
-where t.id = Employee.DepartmentId and Employee.Salary >= t.Salary
-order by t.id asc, Employee.Salary desc;
+    select 
+    if(@demp = DepartmentId , @num:=@num+(@val>Salary), @num:=1),
+    DepartmentId,
+    Name,
+    Salary,
+    @num as 'num',
+    @demp := DepartmentId,
+    @val := Salary
+    from
+    (select * from Employee order by DepartmentId, Salary desc) as E1,
+    (select @num:=0,@val:=null,@demp:=null ) tmp
+) e,
+Department d
+where e.DepartmentId = d.Id and e.num<=3
 
 ```
