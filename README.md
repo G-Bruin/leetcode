@@ -23,7 +23,7 @@
 - [x] [ 部门工资前三高的所有员工 ](./mysql/topThreeSalarie.md)
 - [x] [ 删除重复的电子邮箱 ](./mysql/deleteDuplicateEmails.md)
 - [x] [ 上升的温度 ](./mysql/risingTmperature.md)
-- [ ] [ 行程和用户 ](./mysql/)
+- [x] [ 行程和用户 ](./mysql/tripsAndUsers.md)
 - [ ] [ 游戏玩法分析 I ](./mysql/)
 - [ ] [ 游戏玩法分析 II ](./mysql/)
 - [ ] [ 游戏玩法分析 III ](./mysql/)
@@ -34,4 +34,12 @@
 - [ ] [ Reported Posts ](./mysql/)
 - [ ] [ Active Businesses ](./mysql/)
 
+### algorithms
+<hr>
+
+- [ ] [ 甲板上的战舰 ](./algorithms/assembleTable.md)
+- [ ] [ 强密码检验器 ](./algorithms/top2Salary.md)
+- [ ] [ 数组中两个数的最大异或值 ](./algorithms/topNSalary.md)
+- [ ] [ 从英文中重建数字 ](./algorithms/algorithms.md)
+- [ ] [ 替换后的最长重复字符 ](./algorithms/topNSalary.md)
 
