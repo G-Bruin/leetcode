@@ -25,7 +25,7 @@ XXXX
 ```
 
 #### 解答
-
+- 上面和左边都没有战舰，为有效
 ```shell php
 function countBattleships($board) {
     $count = 0;
