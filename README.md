@@ -37,9 +37,9 @@
 ### algorithms
 <hr>
 
-- [ ] [ 甲板上的战舰 ](./algorithms/assembleTable.md)
-- [ ] [ 强密码检验器 ](./algorithms/top2Salary.md)
-- [ ] [ 数组中两个数的最大异或值 ](./algorithms/topNSalary.md)
-- [ ] [ 从英文中重建数字 ](./algorithms/algorithms.md)
-- [ ] [ 替换后的最长重复字符 ](./algorithms/topNSalary.md)
+- [x] [ 甲板上的战舰 ](./algorithm/battleships.md)
+- [ ] [ 强密码检验器 ](./algorithm/top2Salary.md)
+- [ ] [ 数组中两个数的最大异或值 ](./algorithm/topNSalary.md)
+- [ ] [ 从英文中重建数字 ](./algorithm/algorithms.md)
+- [ ] [ 替换后的最长重复字符 ](./algorithm/topNSalary.md)
 
