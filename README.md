@@ -28,6 +28,7 @@
 - [ ] [ 游戏玩法分析 II ](./mysql/)
 - [ ] [ 游戏玩法分析 III ](./mysql/)
 - [ ] [ 游戏玩法分析 IV ](./mysql/)
+- [x] [ 员工薪水中位数 ](./mysql/medianEmployeeSalary.md)
 - [ ] [ 小众书籍 ](./mysql/)
 - [ ] [ New Users Daily Count ](./mysql/)
 - [ ] [ Highest Grade For Each Student ](./mysql/)
