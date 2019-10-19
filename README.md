@@ -29,6 +29,7 @@
 - [ ] [ 游戏玩法分析 III ](./mysql/)
 - [ ] [ 游戏玩法分析 IV ](./mysql/)
 - [x] [ 员工薪水中位数 ](./mysql/medianEmployeeSalary.md)
+- [x] [ 至少有5名直接下属的经理 ](./mysql/5DirectReports.md)
 - [ ] [ 小众书籍 ](./mysql/)
 - [ ] [ New Users Daily Count ](./mysql/)
 - [ ] [ Highest Grade For Each Student ](./mysql/)
