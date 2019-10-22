@@ -24,6 +24,7 @@
 - [x] [ 删除重复的电子邮箱 ](./mysql/deleteDuplicateEmails.md)
 - [x] [ 上升的温度 ](./mysql/risingTmperature.md)
 - [x] [ 行程和用户 ](./mysql/tripsAndUsers.md)
+- [x] [ Find Cumulative Salary of an Employee ](./mysql/find-cumulative-salary-of-an-employee.md)
 - [ ] [ 游戏玩法分析 I ](./mysql/)
 - [ ] [ 游戏玩法分析 II ](./mysql/)
 - [ ] [ 游戏玩法分析 III ](./mysql/)
