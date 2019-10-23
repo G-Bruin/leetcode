@@ -28,6 +28,7 @@
 - [x] [ 员工薪水中位数 ](./mysql/medianEmployeeSalary.md)
 - [x] [ 至少有5名直接下属的经理 ](./mysql/5DirectReports.md)
 - [x] [ Human Traffic of Stadium ](./mysql/human-traffic-of-stadium.md)
+- [x] [ Tree Node ](./mysql/tree-node.md)
 
 
 ### algorithms
